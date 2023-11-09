@@ -1,15 +1,31 @@
 body {
-    background-color: antiquewhite;
+    background-color: lightseagreen;
 }
 
 
 .titel {
-    color: purple;
+    color: rgb(246, 251, 251);
     text-align: center;
     font-size: 70px;
 }
 
 .bodyimage {
-    width: 500px;
+    width: 70px;
     height: auto;
+}
+
+.text1 {
+    font-size: 30px;
+    font-weight: 40;
+    color: white;
+}
+.bild1 {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
