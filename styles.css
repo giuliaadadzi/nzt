@@ -20,12 +20,41 @@ body {
     color: white;
 }
 .bild1 {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     object-fit: contain;
 }
 
+.bild3 {
+    width: 180px;
+}
+
 .container {
+    position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.container2 {
+    position: relative;
+    display: flex;
+
+}
+
+.bildabsolute {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+
+.bildzwei {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
